@@ -5,6 +5,8 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
     <style name="SecondAppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
@@ -12,11 +14,19 @@
         <item name="colorPrimary">@color/secondColorPrimary</item>
         <item name="colorPrimaryDark">@color/secondColorPrimaryDark</item>
         <item name="colorAccent">@color/secondColorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="styleForTextInput">
+        <item name="android:textColorHint">#FF9800</item>
+        <item name="android:colorControlNormal">#000000</item>
+        <item name="android:colorControlActivated">#2196F3</item>
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />

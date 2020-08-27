@@ -11,4 +11,5 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="grey">Grey</string>
     <string name="blue">Blue</string>
+    <string name="name">Name</string>
 </resources>

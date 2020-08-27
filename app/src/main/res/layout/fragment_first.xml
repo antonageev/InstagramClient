@@ -6,6 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".FirstFragment">
 
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/textview_first"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/styleForTextInput"
+        app:helperText="try to input text"
+        app:counterEnabled="true"
+        app:counterMaxLength="30">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="@string/name"
+            android:theme="@style/styleForTextInput"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
     <TextView
         android:id="@+id/textview_first"
         android:layout_width="wrap_content"
