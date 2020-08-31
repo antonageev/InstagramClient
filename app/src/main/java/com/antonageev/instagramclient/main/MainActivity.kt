@@ -6,6 +6,7 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import com.antonageev.instagramclient.L3Activity
 import com.antonageev.instagramclient.R
 import com.antonageev.instagramclient.settings.SettingsActivity
 
@@ -34,6 +35,7 @@ class MainActivity : AppCompatActivity() {
         // as you specify a parent activity in AndroidManifest.xml.
         return when (item.itemId) {
             R.id.action_settings -> SettingsActivity.start(this).let { true }
+            R.id.buttons_activity -> L3Activity.start(this).let { true }
             else -> super.onOptionsItemSelected(item)
         }
     }
